@@ -1,0 +1,35 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  height: 60vh;
+  color: #fff;
+  /* text-align: center; */
+}
+
+.overlay {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: url('/placeholder.svg?height=800&width=1600'); */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+}
+
+.content {
+  /* position: relative; */
+  /* z-index: 1; */
+}
+
+.content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.5rem;
+}
