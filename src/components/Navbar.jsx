@@ -23,9 +23,9 @@ const Navbar = () => {
           <a href="#contact">CONTACT</a>
         </li>
       </ul>
+  <i class="bi bi-text-right"></i>
     </nav>
     <hr className="line text-white" />
-
     </div>
    
   );

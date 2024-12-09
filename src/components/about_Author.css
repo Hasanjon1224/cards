@@ -1,0 +1,60 @@
+.content {
+  padding: 55px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.box p {
+  width: 20%;
+}
+
+.box span {
+  text-align: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.box .btn {
+  transition: all 0.5s;
+  color: #fe805d;
+  border-radius: 7px;
+  padding: 7px 75px;
+  font-weight: 700;
+  margin: 24px;
+}
+
+.box .btn:hover {
+  background: #fe805d;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .content p {
+    width: 300px;
+    padding: 25px;
+    text-align: center;
+    line-height: 1.7em;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 25px;
+    margin: 42px;
+  }
+}

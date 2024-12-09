@@ -1,0 +1,107 @@
+.newRelease {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.content {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #ff6f61;
+  color: #000;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 45px;
+}
+
+.content p {
+  line-height: 1.7em;
+  font-size: 17px;
+  width: 410px;
+}
+
+.bookCover img {
+  width: 100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.newBadge {
+  display: flex;
+  gap: 20px;
+  text-align: left;
+  justify-content: flex-start;
+  padding-top: 24px;
+}
+
+.newBadge a {
+  text-decoration: none;
+  color: #ff6f61;
+  border-radius: 20%;
+  border: 1px solid salmon;
+  padding: 10px 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .newRelease {
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+  }
+
+  .content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .content h2 {
+    font-size: 25px;
+    padding: 25px;
+  }
+
+  .content p {
+    line-height: 1.7em;
+    font-size: 16px;
+    font-family: sans-serif Roboto;
+    width: 280px;
+    text-align: center;
+    padding-left: 80px;
+  }
+  .newBadge {
+    align-items: center;
+    text-align: center;
+    padding: 45px;
+  }
+
+  .bookCover img {
+    width: 230px;
+    height: 324px;
+    object-fit: cover;
+  }
+
+  .newBadge a {
+    text-decoration: none;
+    color: #ff6f61;
+    border-radius: 15%;
+    border: 1px solid salmon;
+    padding: 10px 12px;
+  }
+
+  .tag {
+    display: none;
+  }
+}

@@ -15,6 +15,7 @@
 .navItems {
   display: flex;
   list-style-type: none;
+
 }
 
 .navItems li {
@@ -30,3 +31,12 @@
 .navItems a:hover {
   color: #ff6f61;
 }
+
+
+@media  screen and (max-width: 768px) {
+.navItems {
+  display: none;
+}
+
+}
+  
