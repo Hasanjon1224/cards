@@ -7,8 +7,8 @@
 // import AboutBookClubs from "./components/AboutBookClubs";
 // import Footer from "./components/Footer";
 
-// import Main from "../src/components/home/lesson_2/Main";
 import { Component } from "react";
+import Main from "../src/components/home/lesson_2/Main";
 import Apple from "./components/class/Apple";
 
 class App extends Component() {
@@ -16,6 +16,7 @@ class App extends Component() {
     return (
       <div className="App">
         <Apple />
+        <Main />
       </div>
     );
   }
