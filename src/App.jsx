@@ -7,47 +7,18 @@
 // import AboutBookClubs from "./components/AboutBookClubs";
 // import Footer from "./components/Footer";
 
-import Main from "../src/components/home/lesson_2/Main.jsx";
+// import Main from "../src/components/home/lesson_2/Main";
+import { Component } from "react";
+import Apple from "./components/class/Apple";
 
-// import Main from "./components/class/Main";
-
-function App() {
-  //   let users = [
-  //     {
-  //       username: "John",
-  //       surname: "Depp",
-  //       age: 21,
-  //       nikName: "Girgitton",
-  //     },
-  //     {
-  //       name: "John",
-  //       surname: "Depp",
-  //       age: 21,
-  //       nikName: "Girgitton",
-  //     },
-  //   ];
-
-  return (
-    <div className="App">
-      {/* {users.map((user, index) => {
-        return (
-          <li key={index}>
-            {user.username} {user.surname}
-          </li>
-        );
-      })} */}
-
-      {/* <Navbar />
-      <Hero />
-      <NewRealize />
-      <Articles />
-      <AboutAuthor />
-      <AboutBookClubs />
-      <Footer/> */}
-{/* <Main/> */}
-<Main/>
-    </div>
-  );
+class App extends Component() {
+  render() {
+    return (
+      <div className="App">
+        <Apple />
+      </div>
+    );
+  }
 }
 
 export default App;

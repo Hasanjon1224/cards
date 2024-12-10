@@ -3,10 +3,10 @@ import React from "react";
 const Cards = () => {
   return (
     <div className="container py-5">
-      <section className="py-5 d-flex gap-1">
+      <section className="py-5 d-flex gap-1 align-items-center">
         <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-          <div className="col-md-3">
-            <div className="card h-100" style={{ width: "" }}>
+          <div className="col-md-3 mb-5">
+            <div className="card" style={{ width: "" }}>
               <img
                 src="https://wallpapers.com/images/hd/4k-nature-moraine-lake-r66plwqa8m3z5reg.jpg"
                 className="card-img-top"
@@ -24,8 +24,8 @@ const Cards = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3">
-            <div className="card h-100" style={{ width: "" }}>
+          <div className="col-md-3 mb-5">
+            <div className="card" style={{ marginBottom: "" }}>
               <img
                 src="https://wallpapers.com/images/hd/4k-nature-moraine-lake-r66plwqa8m3z5reg.jpg"
                 className="card-img-top"
@@ -49,8 +49,8 @@ const Cards = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3">
-            <div className="card h-100" style={{ width: "" }}>
+          <div className="col-md-3 mb-5">
+            <div className="card" style={{ width: "" }}>
               <img
                 src="https://wallpapers.com/images/hd/4k-nature-moraine-lake-r66plwqa8m3z5reg.jpg"
                 className="card-img-top"
@@ -67,8 +67,8 @@ const Cards = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3">
-            <div className="card h-100" style={{ width: "" }}>
+          <div className="col-md-3 mb-5">
+            <div className="card" style={{ width: "" }}>
               <img
                 src="https://wallpapers.com/images/hd/4k-nature-moraine-lake-r66plwqa8m3z5reg.jpg"
                 className="card-img-top"
@@ -93,7 +93,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="card h-100" style={{ width: "" }}>
+            <div className="card" style={{ width: "" }}>
               <img
                 src="https://wallpapers.com/images/hd/4k-nature-moraine-lake-r66plwqa8m3z5reg.jpg"
                 className="card-img-top"
