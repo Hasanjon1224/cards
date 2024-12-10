@@ -9,13 +9,13 @@
 
 import { Component } from "react";
 import Main from "../src/components/home/lesson_2/Main";
-import Apple from "./components/class/Apple";
+// import Apple from "./components/class/Apple";
 
  class App extends Component {
   render() {
     return (
       <div>
-        <Apple />
+        {/* <Apple /> */}
         <Main />
       </div>
     );

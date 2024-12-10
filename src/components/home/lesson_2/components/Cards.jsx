@@ -17,7 +17,7 @@ const Cards = () => {
 
                 <p className="card-text">$40.00 - $80.00</p>
                 <div className="card-footer">
-                  <a href="#btn" class="btn btn-outline-dark">
+                  <a href="#btn" className="btn btn-outline-dark">
                     view options
                   </a>
                 </div>
@@ -34,15 +34,15 @@ const Cards = () => {
               <div className="card-body text-center align-items-center p-4">
                 <h5 className="card-title">Fancy Product</h5>
                 <span className="d-flex text-center align-items-center justify-content-center">
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
                 </span>
                 <p className="card-text">$20.00 $18.00</p>
                 <div className="card-footer">
-                  <a href="#btn" class="btn btn-outline-dark">
+                  <a href="#btn" className="btn btn-outline-dark">
                     Add to cart
                   </a>
                 </div>
@@ -60,7 +60,7 @@ const Cards = () => {
                 <h5 className="card-title">Fancy Product</h5>
                 <p className="card-text">$50.00 $25.00</p>
                 <div className="card-footer">
-                  <a href="#btn" class="btn btn-outline-dark">
+                  <a href="#btn" className="btn btn-outline-dark">
                     Add to cart
                   </a>
                 </div>
@@ -77,15 +77,16 @@ const Cards = () => {
               <div className="card-body text-center align-items-center p-4">
                 <h5 className="card-title">Popular item</h5>
                 <span className="d-flex text-center align-items-center justify-content-center">
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
                 </span>
                 <p className="card-text">$40.00</p>
                 <div className="card-footer">
-                  <a href="#btn" class="btn btn-outline-dark">
+                  Name
+                  <a href="#btn" className="btn btn-outline-dark">
                     add to cart
                   </a>
                 </div>
@@ -103,7 +104,7 @@ const Cards = () => {
                 <h5 className="card-title">Sale item</h5>
                 <p className="card-text">$50.00 $25.00</p>
                 <div className="card-footer">
-                  <a href="#btn" class="btn btn-outline-dark">
+                  <a href="#btn" className="btn btn-outline-dark">
                     add to cart
                   </a>
                 </div>
@@ -121,7 +122,7 @@ const Cards = () => {
                 <h5 className="card-title">Fancy Product</h5>
                 <p className="card-text">$120.00 - $280.00</p>
                 <div className="card-footer">
-                  <a href="#btn" class="btn btn-outline-dark">
+                  <a href="#btn" className="btn btn-outline-dark">
                     view options
                   </a>
                 </div>
@@ -136,13 +137,13 @@ const Cards = () => {
                 alt="card"
               />
               <div className="card-body text-center align-items-center p-4">
-                <h5 className="card-title">Special item</h5>
+   NclassName             <h5 className="card-title">Special item</h5>
                 <span className="d-flex text-center align-items-center justify-content-center">
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
                 </span>
                 <p className="card-text">$20.00 $18.00</p>
                 <div className="card-footer">
@@ -163,15 +164,15 @@ const Cards = () => {
               <div className="card-body text-center align-items-center p-4">
                 <h5 className="card-title">Popular item</h5>
                 <span className="d-flex text-center align-items-center justify-content-center">
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
-                  <i class="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
+                  <i className="bi bi-star-fill text-warning text-center"></i>
                 </span>
                 <p className="card-text">$40.00</p>
                 <div className="card-footer">
-                  <a href="#btn" class="btn btn-outline-dark">
+                  <a href="#btn" className="btn btn-outline-dark">
                     Add to cart
                   </a>
                 </div>
