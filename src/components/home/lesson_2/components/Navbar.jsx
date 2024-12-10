@@ -1,5 +1,4 @@
 import React from "react";
-
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -66,7 +65,7 @@ function Navbar() {
               <i className="bi bi-cart-check"></i>
               Cart
               <span className="badge bg-dark text-white ms-1 rounded-pill">
-                <i class="bi bi-0-circle-fill"></i>
+                <i className="bi bi-0-circle-fill"></i>
               </span>
             </button>
           </form>

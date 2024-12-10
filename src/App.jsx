@@ -11,10 +11,10 @@ import { Component } from "react";
 import Main from "../src/components/home/lesson_2/Main";
 import Apple from "./components/class/Apple";
 
-class App extends Component() {
+ class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Apple />
         <Main />
       </div>
